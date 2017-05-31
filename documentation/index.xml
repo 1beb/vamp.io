@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Documentations on Vamp</title>
+        <link>/documentation/index.xml</link>
+        <description>Recent content in Documentations on Vamp</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Released under the Apache 2 license</copyright>
+        <lastBuildDate>Mon, 03 Apr 2017 09:00:00 +0000</lastBuildDate>
+        <atom:link href="/documentation/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Automate a canary release with rollback</title>
+            <type> tutorial</type>
+            <link>/documentation/tutorials/automate-a-canary-release/</link>
+            <pubDate>Mon, 05 Dec 2016 09:00:00 +0000</pubDate>
+            
+            <guid>/documentation/tutorials/automate-a-canary-release/</guid>
+            <description>
+
+&lt;p&gt;One of the most powerful features of Vamp are workflows. Vamp workflows are containers with injected Node.js scripts that access the Vamp API for all kinds of automation and optimisation tasks. Vamp manages workflows just like any other container inside your cluster, making them robust, scalable and dynamic. With very little effort you can use workflows to create valuable and powerful automation playbooks for testing and deployments.&lt;/p&gt;
+
+&lt;p&gt;This tutorial will show how workflows can be used to run an automated canary release, gradually introducing an updated service and initiating a rollback to the old version in case 500 errors are measured on the new service. We will use our nifty little demo and automation tool Vamp Runner to demonstrate this, but you could just as easily perform all the described actions manually in the Vamp UI or using the API.&lt;/p&gt;
+
+&lt;p&gt;In this tutorial we will:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;./documentation/tutorials/automate-a-canary-release/#run-vamp-with-docker-toolbox&#34;&gt;Run Vamp with Docker Toolbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./documentation/tutorials/automate-a-canary-release/#spin-up-vamp-runner&#34;&gt;Spin up Vamp Runner&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./documentation/tutorials/automate-a-canary-release/#create-a-blueprint-and-deploy-some-services&#34;&gt;Create a Blueprint and deploy some services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./documentation/tutorials/automate-a-canary-release/#create-automation-workflows&#34;&gt;Create automation workflows&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Generate traffic requests&lt;/li&gt;
+&lt;li&gt;Automate a canary release&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./documentation/tutorials/automate-a-canary-release/#force-a-rollback&#34;&gt;Force a rollback&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./documentation/tutorials/automate-a-canary-release/#autoscale-the-services&#34;&gt;Autoscale services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./documentation/tutorials/automate-a-canary-release/#clear-up-and-move-along&#34;&gt;Reset all actions&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;run-vamp-with-docker-toolbox&#34;&gt;Run Vamp with Docker Toolbox&lt;/h2&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+  &lt;p class=&#34;admonition-title&#34;&gt;Tested with Docker Toolbox&lt;/p&gt;
+  &lt;p&gt;This tutorial has been tested on Vamp hello world v0.9.4 running on Docker Toolbox.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you are running Vamp hello world v0.9.4 together with Docker for Mac, you will need to install Docker Toolbox and run Vamp from the Docker Quickstart Terminal instead (&lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34;&gt;docker.com - install Docker Toolbox&lt;/a&gt;).&lt;br /&gt;
+A typical run command on Mac OS X with Docker Toolbox would be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   docker run --net=host \
+              -v /var/run/docker.sock:/var/run/docker.sock \
+              -v `docker-machine ssh default &amp;quot;which docker&amp;quot;`:/bin/docker \
+              -v &amp;quot;/sys/fs/cgroup:/sys/fs/cgroup&amp;quot; \
+              -e &amp;quot;DOCKER_HOST_IP=$(docker-machine ip default)&amp;quot; \
+              magneticio/vamp-docker:0.9.4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;spin-up-vamp-runner&#34;&gt;Spin up Vamp Runner&lt;/h2&gt;
+
+&lt;p&gt;Vamp Runner is the tool we use to demonstrate how individual Vamp features can be combined to fit real world use cases. This unlocks the real power of Vamp. We developed Vamp Runner as an automated integration testing tool to make sure important patterns of Vamp worked as expected against all supported container scheduling stacks when building new versions of Vamp. After we realised how powerful the concept of recipes was, we added a graphical UI on top for demonstration purposes. Vamp Runner can still be used in CLI mode though for your automated integration testing purposes. All actions triggered by Vamp Runner can also be triggered by your CI or automation tool of choice, check out the recipes folder in the Github project (&lt;a href=&#34;https://github.com/magneticio/vamp-runner/tree/master/recipes&#34;&gt;github.com/magneticio - Vamp Runner recipes&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Once Vamp is up and running, you can deploy Vamp Runner alongside it (if you don’t already have a running version of Vamp, check the &lt;a href=&#34;documentation/installation/hello-world&#34;&gt;Vamp hello world set up&lt;/a&gt; ). Vamp Runner connects to the Vamp API endpoint, specified as &lt;code&gt;VAMP_RUNNER_API_URL&lt;/code&gt; in the below docker run command. Note that the IP of your Vamp API location might be different, change this accordingly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run --net=host \
+        -e VAMP_RUNNER_API_URL=http://192.168.99.100:8080/api/v1 \
+        magneticio/vamp-runner:0.9.4   
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can access the Vamp Runner UI at port 8088.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/screens/v094/runner_recipes_canary.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The available RECIPES (demos) are listed on the left&lt;br /&gt;
+Each recipe contains a number of steps that you can click through one by one. We are going to work through the recipe &lt;strong&gt;Canary Release - Introducing New Service Version&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;The RESET button allows you to quickly clear up all artifacts created by a recipe, we&amp;rsquo;ll use that later on.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;create-a-blueprint-and-deploy-some-services&#34;&gt;Create a blueprint and deploy some services&lt;/h2&gt;
+
+&lt;p&gt;Vamp Runner will quickly create and deploy all the artifacts required for our canary release demo. If you prefer, you could create each artifact manually - click the INFO button to show the YAML used for each step or check the GitHub repo (&lt;a href=&#34;https://github.com/magneticio/vamp-runner/tree/master/recipes&#34;&gt;github.com/magneticio - Vamp Runner recipes&lt;/a&gt;).&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Canary Release - Introducing New Service Version&lt;/strong&gt; from the RECIPES list.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;strong&gt;RUN&lt;/strong&gt; next to the first recipe step &lt;strong&gt;Create blueprint&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Each recipe step must be performed in sequence&lt;/li&gt;
+&lt;li&gt;The INFO button next to each step shows you the exact YAML being posted to the VAMP API, in this case it shows us the blueprint that will be created&lt;/li&gt;
+&lt;li&gt;Once a step has completed successfully, the circle next to it will change from blue to green. If for whatever reason the desired state cannot be reached the circle will colour red. (NB check the recipe JSON definition file for each recipe the GitHub project recipes folder to examine the states that are defined to check if a step has been executed successfully.)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Wait for the Create blueprint step to complete and the circle to turn green, then work through the next four steps in turn:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create breed and scale&lt;/strong&gt; - creates the artifacts needed to deploy the service sava:1.0 (these are referenced in our placeholder blueprint)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deploy blueprint&lt;/strong&gt; - deploys the sava:1.0 service with a routing weight of 100% (all traffic)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create gateway&lt;/strong&gt; - exposes the external gateway 9050 mapped to our Sava deployment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Introduce new service version&lt;/strong&gt; - merges the updated sava:1.1 with the running sava deployment. The new service variant is added to the existing Sava cluster with a route weight of 0% (no traffic)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can watch the created artifacts and deployments appear in the Vamp UI (or via the API) and, once deployed, you can access the sava service at the external gateway Vamp Runner created (9050).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/screens/v094/canary_deployments.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/screens/v091/canary_sava10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;create-automation-workflows&#34;&gt;Create automation workflows&lt;/h2&gt;
+
+&lt;p&gt;With two versions of our service ready to go, we can get started with some automation. Conveniently, Vamp Runner can set all this up for us. This recipe automates a canary release using two workflows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a workflow to generate traffic requests (so we can see metrics and introduce 500 errors)&lt;/li&gt;
+&lt;li&gt;a workflow to adjust traffic distribution (for canary release and rollback).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First, breeds are created with a Node.js script for each workflow. Next, workflows are created that reference the breeds. Vamp injects the JavaScript from the referenced breeds into workflow agent containers (&lt;a href=&#34;https://github.com/magneticio/vamp-workflow-agent&#34;&gt;github.com/magneticio - Vamp workflow agent&lt;/a&gt;) and these are deployed to run at the defined workflow schedule (continuously, triggered by Vamp events or at a set time).&lt;/p&gt;
+
+&lt;p&gt;Inside the deployed workflow containers, the Vamp Node.js client library enables JavaScript to easily speak with the Vamp API. See the gitHub project for details (&lt;a href=&#34;https://github.com/magneticio/vamp-node-client&#34;&gt;github.com/magneticio - Vamp Node.js Client&lt;/a&gt;) or &lt;a href=&#34;./documentation/using-vamp/workflows&#34;&gt;read more about workflows&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;workflow-1-generate-traffic-requests&#34;&gt;Workflow 1: Generate traffic requests&lt;/h3&gt;
+
+&lt;p&gt;The next step is to get some traffic requests flowing into the deployed services.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click RUN next to Generate traffic requests&lt;br /&gt;
+Vamp will create a breed and workflow named &lt;strong&gt;traffic&lt;/strong&gt;. You can see the exact YAML posted to the Vamp API to complete this by clicking INFO.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The created traffic workflow will send generated traffic requests to our services at the defined port (9050). The workflow is scheduled to run as a daemon, so it will begin generating traffic requests as soon as it is created. You can watch them arrive at the gateway in the Vamp UI.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/screens/v094/canary_traffic_gateways.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The routing weights are currenctly set to &lt;strong&gt;sava:1.0 - 100%&lt;/strong&gt; and &lt;strong&gt;sava:1.1 - 0%&lt;/strong&gt;. This means that all incoming traffic will routed to sava:1.0.&lt;/p&gt;
+
+&lt;h3 id=&#34;workflow-2-automate-a-canary-release&#34;&gt;Workflow 2: Automate a canary release&lt;/h3&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s time to introduce sava:1.1 to the world by canary release.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Click &lt;strong&gt;Run&lt;/strong&gt; next to &lt;strong&gt;Automated canary release&lt;/strong&gt;&lt;br /&gt;
+Vamp will create a breed and a workflow named &lt;strong&gt;canary&lt;/strong&gt;. Go ahead and click INFO to see the YAML.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/screens/v094/canary_yaml.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once created, the canary workflow will begin to gradually rebalance traffic routing, introducing sava:1.1 while phasing out sava:1.0. You can see the weight distribution on the internal gateway updating in the Vamp UI.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/screens/v094/canary_gateways.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also use the WEIGHT slider in the Vamp UI to adjust the weight manually, the canary workflow will kick back in and take over from your setting.&lt;/p&gt;
+
+&lt;h2 id=&#34;force-a-rollback&#34;&gt;Force a rollback&lt;/h2&gt;
+
+&lt;p&gt;As there are generated traffic requests flowing in to the sava service, the canary workflow can track the health of the deployed services and initiate a rollback in case errors are detected. We can demonstrate this by maliciously destroying the sava:1.1 deployment from the Marathon UI, effectively forcing a full rollback to sava:1.0. The error limit in the canary workflow is set to 500, so this is what we need to generate to force a rollback.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go the Marathon UI (on port 9090) and find the sava:1.1 container running inside the sava group.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;destroy&lt;/strong&gt; to kill the container, this will cause the required 500 errors to appear&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/screens/v091/canary_marathon_destroy.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will see the following happen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The canary workflow will pick up on the errors for traffic routed to sava:1.1 and rebalance the routing weight to send 100% of traffic to sava:1.0.&lt;/li&gt;
+&lt;li&gt;Vamp&amp;rsquo;s default health workflow will also pick up on the errors and show a drop in health to 0%&lt;/li&gt;
+&lt;li&gt;Marathon will redeploy the sava:1.1 service as soon as possible&lt;/li&gt;
+&lt;li&gt;Vamp will update its routing rules to respect the new location(s) of the Sava 1.1 container in the cluster&lt;/li&gt;
+&lt;li&gt;After 30 seconds of no errors, service health will return to 100% and the canary workflow will start the canary release process over again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/screens/v094/canary_force_rollback_1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;autoscale-the-services&#34;&gt;Autoscale the services&lt;/h2&gt;
+
+&lt;p&gt;The final step in this Vamp Runner recipe deploys a workflow to automatically scale the services as their weights are rebalanced. Go ahead and run this step too - we will explain more about how Vamp manages autoscaling in a future tutorial.&lt;/p&gt;
+
+&lt;h2 id=&#34;clear-up-and-move-along&#34;&gt;Clear up and move along&lt;/h2&gt;
+
+&lt;p&gt;You can set Vamp back to its initial (clean) state at any step in a recipe. Click &lt;strong&gt;RESET&lt;/strong&gt; to remove all deployments, gateways, workflows and static artifacts that have been created by the selected recipe. After clean up, the status of each recipe step will be reset, so you can start from the beginning again.&lt;/p&gt;
+
+&lt;h2 id=&#34;summing-up&#34;&gt;Summing up&lt;/h2&gt;
+
+&lt;p&gt;Now you’ve got to grips with Vamp Runner and the power of workflows there’s surely no stopping you. You can try out the other Vamp Runner recipes (remember to clean up when you’re done) like autoscaling and mocking metrics.&lt;/p&gt;
+
+&lt;h2 id=&#34;looking-for-more-of-a-challenge&#34;&gt;Looking for more of a challenge?&lt;/h2&gt;
+
+&lt;p&gt;Just for fun, you could try these:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How might you integrate workflow automated canary releasing into a CI pipeline?&lt;/li&gt;
+&lt;li&gt;Could you apply the mock metrics and/or canary workflows used in this recipe to another project?&lt;/li&gt;
+&lt;li&gt;Can you adapt the canary workflow so it is triggered by a new deployment of the Sava service?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;admonition note&#34;&gt;
+  &lt;p class=&#34;admonition-title&#34;&gt;What next?&lt;/p&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;What would you like to see for our next tutorial? &lt;a href=&#34;mailto:info@magnetic.io&#34;&gt;let us know&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Find our more about &lt;a href=&#34;documentation/using-vamp/artifacts&#34;&gt;using Vamp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

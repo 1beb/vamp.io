@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/dialects/</loc>
+    <lastmod>2017-04-03T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/release-notes/version-0-9-4/</loc>
+    <lastmod>2017-03-14T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/feature-list/</loc>
+    <lastmod>2017-02-14T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/release-notes/version-0-9-3/</loc>
+    <lastmod>2017-02-14T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/dcos/</loc>
+    <lastmod>2017-02-07T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/dcos/</loc>
+    <lastmod>2017-02-07T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.2/overview/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.3/overview/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.4/overview/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.2/full-vamp-installation/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.3/full-vamp-installation/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.4/full-vamp-installation/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.2/hello-world-quickstart/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.3/hello-world-quickstart/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.4/hello-world-quickstart/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.2/tips-for-using-vamp/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.3/tips-for-using-vamp/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/troubleshoot/v0.9.4/tips-for-using-vamp/</loc>
+    <lastmod>2017-01-09T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/release-notes/version-0-9-2/</loc>
+    <lastmod>2016-12-22T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/tutorials/automate-a-canary-release/</loc>
+    <lastmod>2016-12-05T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/release-notes/archive/</loc>
+    <lastmod>2016-11-02T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.2/events-and-metrics/</loc>
+    <lastmod>2016-10-21T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.3/events-and-metrics/</loc>
+    <lastmod>2016-10-21T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.4/events-and-metrics/</loc>
+    <lastmod>2016-10-21T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/downloads/</loc>
+    <lastmod>2016-10-19T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/release-notes/katana/</loc>
+    <lastmod>2016-10-19T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.1/using-the-api/</loc>
+    <lastmod>2016-10-19T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/release-notes/version-0-9-0/</loc>
+    <lastmod>2016-10-19T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/kubernetes/</loc>
+    <lastmod>2016-10-04T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/kubernetes/</loc>
+    <lastmod>2016-10-04T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/kubernetes/</loc>
+    <lastmod>2016-10-04T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/release-notes/version-0-9-1/</loc>
+    <lastmod>2016-10-01T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/azure-container-service/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/azure-container-service/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/azure-container-service/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/dcos/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/docker/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/docker/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/docker/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/mesos-marathon/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/mesos-marathon/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/mesos-marathon/</loc>
+    <lastmod>2016-09-30T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.1/api-reference/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/about_us/about/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.2/architecture-and-components/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.3/architecture-and-components/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.4/architecture-and-components/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/artifacts/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/artifacts/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/artifacts/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/artifacts/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-blueprints/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-blueprints/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-blueprints/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/blueprints/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/blueprints/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/blueprints/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/blueprints/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-breeds/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-breeds/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-breeds/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/breeds/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/breeds/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/breeds/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/breeds/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/cli/cli-reference/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/use-cases/create-responsive-website/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/using-the-api/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/using-the-api/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/using-the-api/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-conditions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-conditions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-conditions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/conditions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/conditions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/conditions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/conditions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-config/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-config/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-config/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/configuration-reference/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/configuration-reference/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/configuration-reference/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/contact/contact/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/tutorials/create-a-workflow/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-debug/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/tutorials/deploy-and-canary-release-wordpress/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/tutorials/deploy-your-first-blueprint/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-deployment-slas/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-deployment-slas/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-deployment-slas/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-deployment-scales/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-deployment-scales/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-deployment-scales/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-deployments/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-deployments/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-deployments/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/deployments/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/deployments/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/deployments/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/deployments/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/dogmas/dogmas/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/environment-variables/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/environment-variables/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/environment-variables/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/environment-variables/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-escalations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-escalations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-escalations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/escalations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/escalations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/escalations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/escalations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-events/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-events/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-events/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/events/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/events/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/events/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/events/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/example-configurations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/example-configurations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/example-configurations/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/vamp-compared-to/frameworks-and-tools/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-gateways/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-gateways/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-gateways/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/gateways/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/gateways/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/gateways/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/gateways/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/get-started/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-haproxy/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-haproxy/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-haproxy/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-health/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-health/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-health/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/health/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/hello-world/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/hello-world/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/hello-world/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/configure-vamp/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/configure-vamp/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/configure-vamp/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-info/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-info/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-info/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/overview/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/overview/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/overview/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/community/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/tutorials/merge-and-delete/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-metrics/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-metrics/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-metrics/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/use-cases/refactor-monolithic-to-microsystems/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-reference/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-reference/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-reference/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/vamp-compared-to/paas-and-container-systems/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/vamp-compared-to/proxies-and-load-balancers/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.2/rancher/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.3/rancher/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/installation/v0.9.4/rancher/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/references/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/references/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/references/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/references/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.2/requirements/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.3/requirements/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.4/requirements/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/use-cases/resolve-incompatibilities-after-upgrade/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.2/routing-and-load-balancing/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.3/routing-and-load-balancing/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.4/routing-and-load-balancing/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/tutorials/run-a-canary-release/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/sla/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/sla/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/sla/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/sla/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-slas/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-slas/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-slas/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-scales/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-scales/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-scales/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/search/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/see-vamp-in-action/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/use-cases/self-healing-and-self-optimising/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.2/service-discovery/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.3/service-discovery/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.4/service-discovery/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/service-discovery/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/service-discovery/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/service-discovery/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/service-discovery/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/use-cases/service-discovery/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/use-cases/simulate-and-test-scaling-behaviour/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/tutorials/split-a-monolith/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/sticky-sessions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/sticky-sessions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/sticky-sessions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/sticky-sessions/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/use-cases/modernise-architecture/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/tutorials/overview/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/use-cases/use-cases/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/cli/using-the-cli/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-vga/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-vga/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/vacancies/vacancies/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/release-090/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/enterprise-edition/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/virtual-hosts/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/virtual-hosts/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/virtual-hosts/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/virtual-hosts/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-websockets/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-websockets/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-websockets/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.2/which-container-scheduler/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.3/which-container-scheduler/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/how-vamp-works/v0.9.4/which-container-scheduler/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/why-use-vamp/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.2/api-workflows/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.3/api-workflows/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/api/v0.9.4/api-workflows/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.1/workflows/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.2/workflows/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.3/workflows/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/workflows/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/support/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/index.json</loc>
+    <lastmod>2016-08-02T01:13:07+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/draft/api/0.8.5/</loc>
+    <lastmod>2016-08-01T12:53:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/draft/api/master/</loc>
+    <lastmod>2016-08-01T12:53:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/draft/api/v0.9.0/</loc>
+    <lastmod>2016-08-01T12:53:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/draft/api/master/example2/</loc>
+    <lastmod>2016-08-01T11:16:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/draft/api/v0.9.0/example2/</loc>
+    <lastmod>2016-08-01T11:16:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/Magnetic_io-VAMP-raises-500k-in-investmentround-led-by-VoltaVentures/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/Magnetic_io-VAMP-haalt-500k-op-in-investeringsronde-geleid-door-VoltaVentures/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/canaries-and-containers/</loc>
+    <lastmod>2016-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/draft/api/0.8.5/example1/</loc>
+    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/draft/api/master/example1/</loc>
+    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/release-0710/</loc>
+    <lastmod>2015-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/going-native/</loc>
+    <lastmod>2015-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/release-079/</loc>
+    <lastmod>2015-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/8-docker-productivity-hacks/</loc>
+    <lastmod>2015-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/release-076/</loc>
+    <lastmod>2015-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/updates-docs/</loc>
+    <lastmod>2015-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/release-075/</loc>
+    <lastmod>2015-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/getting-started/</loc>
+    <lastmod>2015-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/news/epic-first-post/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2016-09-13T09:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/articles/</loc>
+    <lastmod>2015-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2016-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/debian/</loc>
+    <lastmod>2015-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2015-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/documentation/</loc>
+    <lastmod>2017-04-03T09:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/draft/</loc>
+    <lastmod>2016-08-01T12:53:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/first/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/homebrew/</loc>
+    <lastmod>2015-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/launch/</loc>
+    <lastmod>2015-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2015-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/news/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/one-liners/</loc>
+    <lastmod>2015-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/press/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/releases/</loc>
+    <lastmod>2015-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/resources/</loc>
+    <lastmod>2016-10-19T09:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/documentation/using-vamp/v0.9.4/reverse-proxy/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/sbt-native-packager/</loc>
+    <lastmod>2015-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tips/</loc>
+    <lastmod>2015-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tricks/</loc>
+    <lastmod>2015-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorials/</loc>
+    <lastmod>2015-04-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ui/</loc>
+    <lastmod>2015-04-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-04-03T09:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vamp/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/why-use-vamp/</loc>
+    <lastmod>2017-02-14T09:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
